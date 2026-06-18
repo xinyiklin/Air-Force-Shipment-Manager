@@ -12,9 +12,16 @@ The Air Force Shipment Manager (AFSM) is a web application designed to help user
 
 * **Substance Listing:** The application provides a detailed listing of various substances along with their UN/ID numbers and proper shipping names/descriptions.
 
-## Usage
+## Running Locally
 
-Access the AFSM web application via [this link](https://hunter-afsm.herokuapp.com/).
+Clone the repository, install the Django dependencies, and run the development server:
+
+```bash
+python manage.py migrate
+python manage.py runserver
+```
+
+Then open `http://127.0.0.1:8000/` in your browser.
 
 ## Technology Stack
 
@@ -38,4 +45,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contact
 
-If you have any questions or inquiries about this project, you can reach out to the project maintainer at [kevinlin11426@gmail.com](mailto:kevinlin11426@gmail.com).
+If you have any questions or inquiries about this project, you can reach out to the project maintainer at [xinyiklin@gmail.com](mailto:xinyiklin@gmail.com).
